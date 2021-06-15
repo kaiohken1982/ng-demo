@@ -1,0 +1,30 @@
+.rabbit-base {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  background-image: url('../images/pochitchi.png');
+  background-repeat: no-repeat;
+  background-size: 3000px;
+  cursor: pointer;
+}
+
+.rabbit-normal {
+  background-position: -25px -230px;
+}
+
+.rabbit-sick {
+  background-position: -910px -1245px;
+}
+
+.rabbit-dead {
+  background-position: -2375px -1665px;
+}
+
+.apple-base {
+  border: 1px solid black;
+  background-image: url('../images/apple.jpg');
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  background-size: cover;
+}
